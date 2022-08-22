@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> 
+            My first website.    
+        </title> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+    </head>
+
+    <body style="background-color:rgba(43, 174, 226, 0.443)"> 
+        <!--
+
+        <h1>
+            Ligma 
+        </h1> 
+
+        <h2>
+           This is a subheading
+        </h2>
+           <p style="color:rgb(239, 4, 4);font-size:120%;background-color:blanchedalmond;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        Paragraph with a <br> break ting innit
+         </p>
+
+ <img src="img/Shag.jpeg" width=200/>
+ -->
+
+ <img id="donut1" src="img/donut01.png" width=100/>
+ <img id="donut2" src="img/donut02.png" width=100/>
+ <img id="donut3" src="img/donut03.png" width=130/>
+
+
+ <script>
+    var sound1 = new buzz.sound("sound/dream.mp3");
+
+    window.onload = function() {
+        document.getElementById('donut1').addEventListener("click", function () {sound1.play();});
+    };
+ </script>
+
+ </body>
+</html>
